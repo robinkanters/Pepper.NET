@@ -4,7 +4,7 @@
 
     public abstract class ApiRequest
     {
-        public IApiResponse execute()
+        public IApiResponse Execute()
         {
             return null;
         }
