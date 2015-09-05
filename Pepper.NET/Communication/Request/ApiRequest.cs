@@ -1,8 +1,11 @@
 ﻿namespace Pepper.NET
 {
+    using Communication;
+    using Communication.Response;
+
     abstract class ApiRequest
     {
-        public ApiResponse execute()
+        public IApiResponse execute()
         {
             return null;
         }

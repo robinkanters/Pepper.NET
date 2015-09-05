@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Communication\ApiRequest.cs" />
-    <Compile Include="Communication\ApiResponse.cs" />
+    <Compile Include="Communication\Request\ApiRequest.cs" />
+    <Compile Include="Communication\Response\ApiResponse.cs" />
     <Compile Include="Model\Profile.cs" />
     <Compile Include="Model\Session.cs" />
     <Compile Include="Model\SessionToken.cs" />
