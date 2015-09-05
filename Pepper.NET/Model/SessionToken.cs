@@ -1,4 +1,4 @@
-﻿namespace Pepper.NET
+﻿namespace Pepper.NET.Model
 {
     using System;
 
