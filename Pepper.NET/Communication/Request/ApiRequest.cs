@@ -1,4 +1,4 @@
-﻿namespace Pepper.NET
+﻿namespace Pepper.NET.Communication.Request
 {
     using Communication.Response;
 
