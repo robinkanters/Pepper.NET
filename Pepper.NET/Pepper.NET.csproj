@@ -41,7 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Communication\Request\ApiRequest.cs" />
-    <Compile Include="Communication\Response\ApiResponse.cs" />
+    <Compile Include="Communication\Request\RecentUpdateRequest.cs" />
+    <Compile Include="Communication\Response\IApiResponse.cs" />
     <Compile Include="Model\Profile.cs" />
     <Compile Include="Model\Session.cs" />
     <Compile Include="Model\SessionToken.cs" />
