@@ -54,14 +54,19 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Communication\Request\RecentUpdateRequestTest.cs" />
     <Compile Include="Model\ProfileTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Communication\" />
+    <ProjectReference Include="..\Pepper.NET\Pepper.NET.csproj">
+      <Project>{42fc68e1-ef3d-4c82-98fd-35a685399a56}</Project>
+      <Name>Pepper.NET</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
